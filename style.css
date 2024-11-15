@@ -2,11 +2,32 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #navbar{
-    width: 100px;
-    height: 40px;
-    background-color: blue;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#333;
+    padding: 10px 20px;
+}
+#navbar .logo{
+    color: rgb(240, 230, 230);
+    font-size: 14px;
+    font-weight: bold;
+
+}
+#navbar  .nav_item{
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+#navbar a{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
 }
