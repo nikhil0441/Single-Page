@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    display: flex;
+}
