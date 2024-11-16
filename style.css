@@ -3,6 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
 }
 
 #navbar{
@@ -10,9 +11,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+   position: relative;
     background-color: rgba(46, 46, 47, 0.6);
     padding: 10px 20px;
     flex-wrap: wrap;
+    /* position: ; */
 }
 #navbar .logo{
     padding-left: 80px;
@@ -24,7 +27,7 @@
 #navbar  .nav_item{
     
     display: flex;
-    gap: 40px;
+    gap: 60px;
     color: white;
     font-size: 14px;
     font-weight: bold;
@@ -33,7 +36,80 @@
 }
 #navbar a{
     color: white;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     text-decoration: none;
 }
+#navbar a:hover{
+    color: aqua;
+    background-color: black;
+    border-radius: 1px;
+    padding: auto;
+    
+}
+#home{
+    color: rgb(14, 14, 14);
+    width: 100%;
+    height: 100vh;
+    background-image: url(/pexels-tirachard-kumtanom-112571-733852.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    
+    
+}
+#home .home_item{
+    width: 600px;
+    height: 200px;
+    /* background-color: aqua; */
+    padding: 10px;
+}
+#home .home_item p{
+    padding: 10px;
+    font-size: 15px;
+    font-style: italic;
+ text-shadow: 15px 15px 8px black;
+    
+}
+#home .home_item .heading{
+    font-size:  30px;
+}
+mark{
+color: aqua;
+background-color:black ;
+}
+#home button{
+    color:wheat;
+    background-color: red;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 100px;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.card .card_item{
+    margin-top: 90px;
+    margin-right: 20px;
+    width: 300px;
+    height: 240px;
+    color: beige;
+    background-color: red;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 15px 15px 15px 5px gray;
+}
+.card .card_item h1{
+    padding: 10px;
+    color: black;
+}
+.card .card_item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
