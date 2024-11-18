@@ -20,7 +20,7 @@
 #navbar .logo{
     padding-left: 80px;
     color: rgb(240, 230, 230);
-    font-size: 14px;
+    font-size: 25px;
     font-weight: bold;
 
 }
@@ -29,14 +29,14 @@
     display: flex;
     gap: 60px;
     color: white;
-    font-size: 14px;
+    font-size: 30px;
     font-weight: bold;
     list-style: none;
     padding-right: 40px;
 }
 #navbar a{
     color: white;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -92,7 +92,7 @@ background-color:black ;
     justify-items: center;
 }
 .card .card_item{
-    margin-top: 90px;
+    margin-top: 120px;
     margin-right: 20px;
     width: 300px;
     height: 250px;
@@ -125,9 +125,7 @@ background-color:black ;
 }
 #meeting_par{
     display: grid;
-
- 
- grid-template-columns: auto auto auto ;
+ grid-template-columns: 400px auto auto ;
     
     justify-content: center;
     padding: 20px;
