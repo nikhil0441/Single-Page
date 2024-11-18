@@ -22,8 +22,15 @@
     color: rgb(240, 230, 230);
     font-size: 25px;
     font-weight: bold;
+    
+
+
 
 }
+  #navbar .logo :hover{
+    background-color: #000;
+    color:aqua;
+  }
 #navbar  .nav_item{
     
     display: flex;
@@ -248,7 +255,7 @@ background-color:black ;
 display: grid;
 grid-template-columns: auto auto;
 justify-content: center;
-
+align-items: center;
 }
 .apply .container{
     width: 400px;
@@ -264,6 +271,7 @@ justify-content: center;
 }
 .apply .container p{
 font-size: 15px;
+color: #fff;
 font-style: italic;
 padding: 10px;
 font-family: 'Courier New', Courier, monospace;
@@ -281,6 +289,8 @@ font-family: 'Courier New', Courier, monospace;
     padding: 20px;
     background-color:white;
     color: #000;
+
+
     text-align: center;
     border-radius: 8px;
 }
@@ -319,7 +329,9 @@ font-family: 'Courier New', Courier, monospace;
     margin: 20px;
 }
 #box{
-    display:  flex;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
     justify-content: center;
     justify-items: center;
     padding: 10px;
