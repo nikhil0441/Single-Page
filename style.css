@@ -403,6 +403,11 @@ font-family: 'Courier New', Courier, monospace;
 .contacts .secondcontact h4{
     padding: 10px;
 }
+.contacts .secondcontact a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
 #footers{
     width: 100%;
     height: 200px;
